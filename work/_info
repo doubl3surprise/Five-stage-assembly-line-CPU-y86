@@ -1,0 +1,417 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modelsim/examples/cpu
+T_opt
+!s110 1737796533
+V0k_hbRX@_=[So]LidL`ZJ1
+04 4 4 work main fast 0
+=1-e0d4e8c5d3bb-6794abb4-272-13f2c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+R0
+vaccess_register_file
+Z2 !s110 1737796514
+!i10b 1
+!s100 WfSG`TfZeOzgg<WgmOIZ73
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKo9X9Vbb:NoNF0FV1Z]OD0
+Z4 dC:/modelsim/examples/multi-level-CPU
+w1737795019
+8C:/modelsim/examples/multi-level-CPU/access_register_file.v
+FC:/modelsim/examples/multi-level-CPU/access_register_file.v
+!i122 222
+L0 1 84
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1737796514.000000
+!s107 C:/modelsim/examples/multi-level-CPU/access_register_file.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/access_register_file.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcontrol
+!s110 1737806064
+!i10b 1
+!s100 Zcc1BYUM_[ok1IhbG3lVF3
+R3
+IRb:Pb>U]Whm3UY535JLdO0
+R4
+w1737806054
+8C:/modelsim/examples/multi-level-CPU/control.v
+FC:/modelsim/examples/multi-level-CPU/control.v
+!i122 233
+L0 2 29
+R5
+R6
+r1
+!s85 0
+31
+!s108 1737806064.000000
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/control.v|
+!i113 0
+R8
+R1
+vdecode
+R2
+!i10b 1
+!s100 QI4Sz_e8dLd9Y2Rd5@FVe2
+R3
+IZ:ZbSfn6bZKdzWABl<W]B1
+R4
+w1737795670
+8C:/modelsim/examples/multi-level-CPU/decode.v
+FC:/modelsim/examples/multi-level-CPU/decode.v
+!i122 221
+L0 2 55
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/decode.v|
+!i113 0
+R8
+R1
+vdecode_E_pipe_reg
+Z9 !s110 1737796515
+!i10b 1
+!s100 zRCNjHFLmKhi_R[edAQL21
+R3
+IhBHoK=I7@6j:`=Md^N_SU1
+R4
+w1737779046
+8C:/modelsim/examples/multi-level-CPU/decode_E_pipe_reg.v
+FC:/modelsim/examples/multi-level-CPU/decode_E_pipe_reg.v
+!i122 223
+L0 2 56
+R5
+R6
+r1
+!s85 0
+31
+Z10 !s108 1737796515.000000
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/decode_E_pipe_reg.v|
+!i113 0
+R8
+R1
+ndecode_@e_pipe_reg
+vexecute
+R9
+!i10b 1
+!s100 kfBo>YzWSbRzm3PE`YP>U3
+R3
+IEi3I2jYS92z`0OFT>NA;i0
+R4
+w1737781076
+8C:/modelsim/examples/multi-level-CPU/execute.v
+FC:/modelsim/examples/multi-level-CPU/execute.v
+!i122 224
+L0 2 62
+R5
+R6
+r1
+!s85 0
+31
+R10
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/execute.v|
+!i113 0
+R8
+R1
+vexecute_M_pipe_reg
+R9
+!i10b 1
+!s100 ;OLL2GJR8ZZcdX^LgG4151
+R3
+IiEOHXCI3dFIcY6DbeWo653
+R4
+w1737781528
+8C:/modelsim/examples/multi-level-CPU/execute_M_pipe_reg.v
+FC:/modelsim/examples/multi-level-CPU/execute_M_pipe_reg.v
+!i122 225
+Z11 L0 2 48
+R5
+R6
+r1
+!s85 0
+31
+R10
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/execute_M_pipe_reg.v|
+!i113 0
+R8
+R1
+nexecute_@m_pipe_reg
+vF_pipe_reg
+Z12 !s110 1737796516
+!i10b 1
+!s100 aTQ3QoQT5@jHzAaOW64JZ0
+R3
+IG;AL_0L2[6YOMZ:`aa<;o1
+R4
+w1736936015
+8C:/modelsim/examples/multi-level-CPU/F_pipe_reg.v
+FC:/modelsim/examples/multi-level-CPU/F_pipe_reg.v
+!i122 228
+L0 1 14
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1737796516.000000
+!s107 C:/modelsim/examples/multi-level-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/F_pipe_reg.v|
+!i113 0
+R8
+R1
+n@f_pipe_reg
+vfetch
+Z14 !s110 1737796513
+!i10b 1
+!s100 81W8<YOaWAHBgg3Jk5:cZ1
+R3
+IQFl]KU?FWog^UM`49S:Za3
+R4
+w1737796274
+8C:/modelsim/examples/multi-level-CPU/fetch.v
+FC:/modelsim/examples/multi-level-CPU/fetch.v
+!i122 217
+L0 2 32
+R5
+R6
+r1
+!s85 0
+31
+Z15 !s108 1737796513.000000
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/fetch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/fetch.v|
+!i113 0
+R8
+R1
+vfetch_D_pipe_reg
+R14
+!i10b 1
+!s100 fjcg]jZ8]zF1mJVdY<C:Z0
+R3
+IfeKCRdd8WmHF43a@km^:_2
+R4
+w1737795901
+8C:/modelsim/examples/multi-level-CPU/fetch_D_pipe_reg.v
+FC:/modelsim/examples/multi-level-CPU/fetch_D_pipe_reg.v
+!i122 218
+L0 2 43
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R8
+R1
+nfetch_@d_pipe_reg
+vinstruction_memory
+R12
+!i10b 1
+!s100 SXanU>O7QUSlL5IMgWn493
+R3
+IO:=?TKSSV;o6Ro`T>Y<If3
+R4
+w1736941699
+8C:/modelsim/examples/multi-level-CPU/access_instruction_memory.v
+FC:/modelsim/examples/multi-level-CPU/access_instruction_memory.v
+!i122 229
+L0 1 54
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/modelsim/examples/multi-level-CPU/access_instruction_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/access_instruction_memory.v|
+!i113 0
+R8
+R1
+vmain
+R2
+!i10b 1
+!s100 FaaHkbhT6Ya_eJkKz:DRa0
+R3
+I:7jcF81hhzPbUe8QW5H0]3
+R4
+w1737796485
+8C:/modelsim/examples/multi-level-CPU/main.v
+FC:/modelsim/examples/multi-level-CPU/main.v
+!i122 220
+L0 2 135
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/modelsim/examples/multi-level-CPU/main.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/main.v|
+!i113 0
+R8
+R1
+vmemory_access
+R12
+!i10b 1
+!s100 T85em3ekC54LCj`@^nJQQ2
+R3
+I3lHZ8Y1JV7YO:81ECI4;93
+R4
+w1737785996
+8C:/modelsim/examples/multi-level-CPU/memory_access.v
+FC:/modelsim/examples/multi-level-CPU/memory_access.v
+!i122 226
+R11
+R5
+R6
+r1
+!s85 0
+31
+R10
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/memory_access.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/memory_access.v|
+!i113 0
+R8
+R1
+vmemory_access_W_pipe_reg
+R12
+!i10b 1
+!s100 afC4P?S0cS]H1F[H3YLHK2
+R3
+I[YC=8XP`H5H<S_MjIP?2^2
+R4
+w1736940951
+8C:/modelsim/examples/multi-level-CPU/memory_access_W_pipe_reg.v
+FC:/modelsim/examples/multi-level-CPU/memory_access_W_pipe_reg.v
+!i122 227
+L0 2 39
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R8
+R1
+nmemory_access_@w_pipe_reg
+vram
+Z16 !s110 1737796517
+!i10b 1
+!s100 M37?@BWdQCGGodC_1j]gW0
+R3
+IZ@e0C@J[c3]kdY?k^=Mmm1
+R4
+w1736935984
+8C:/modelsim/examples/multi-level-CPU/ram.v
+FC:/modelsim/examples/multi-level-CPU/ram.v
+!i122 230
+L0 1 37
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1737796517.000000
+!s107 C:/modelsim/examples/multi-level-CPU/ram.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/ram.v|
+!i113 0
+R8
+R1
+vregister_heap
+!s110 1736314604
+!i10b 1
+!s100 _P27^057FE[ac0:e^5_B30
+R3
+IH31>G6U2R8:fma]iL3Y@73
+R4
+w1736314601
+8C:/modelsim/examples/multi-level-CPU/register_heap.v
+FC:/modelsim/examples/multi-level-CPU/register_heap.v
+!i122 9
+L0 1 23
+R5
+R6
+r1
+!s85 0
+31
+!s108 1736314603.000000
+!s107 C:/modelsim/examples/multi-level-CPU/register_heap.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/register_heap.v|
+!i113 0
+R8
+R1
+vsel_fwd
+R16
+!i10b 1
+!s100 FcQAZ1ln5Ez4A;MERF2U81
+R3
+Ibe<ao^kLEgl438C9`cm3U0
+R4
+w1736954727
+8C:/modelsim/examples/multi-level-CPU/fwd.v
+FC:/modelsim/examples/multi-level-CPU/fwd.v
+!i122 232
+L0 3 26
+R5
+R6
+r1
+!s85 0
+31
+R17
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/fwd.v|
+!i113 0
+R8
+R1
+vselect_pc
+R14
+!i10b 1
+!s100 lM52hEDh:YmGN1`;63fb01
+R3
+I:[J]J5:Pj]Rdj2RW7XKE[2
+R4
+w1737796510
+8C:/modelsim/examples/multi-level-CPU/select_pc.v
+FC:/modelsim/examples/multi-level-CPU/select_pc.v
+!i122 219
+L0 2 19
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 define.v|C:/modelsim/examples/multi-level-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/modelsim/examples/multi-level-CPU/select_pc.v|
+!i113 0
+R8
+R1
